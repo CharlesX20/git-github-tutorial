@@ -1,0 +1,12 @@
+.box{
+    background-color: #bad;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0;
+    display: none;
+    text-align: center;
+}
+.body-class .box{
+    display: block;
+}
