@@ -24,6 +24,6 @@
 //     console.log(items)
 // })
 
-function openDiv(){
-    document.querySelector('body').classList.toggle('body-class')
-}
+// function openDiv(){
+//     document.querySelector('body').classList.toggle('body-class')
+// }
