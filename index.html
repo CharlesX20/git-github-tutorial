@@ -8,13 +8,19 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-<label for="userNumber">Enter a number from 1-100: </label>
-<br><br>
-<input type="number" id="userNumber">
-<button class="submitButton">submit</button>
-<h2 class="userNumberOutput"></h2>
-<h3 class="userNumberOutputResult"></h3>
-<h1 class="endResult"></h1>
+    <form>
+        <h1>Unit conversion</h1>
+        <label for="currentUnit">Enter a number to convert: </label>
+        <input type="number" id="currentUnit">
+        <br><br>
+        <input type="radio" name="unit" id="kgConverter">
+        <label for="kgConverter">Convert from kg to g</label><br>
+        <input type="radio" name="unit" id="gConverter">
+        <label for="gConverter">Convert from g to kg</label><br><br>
+        <button class="submitButton" type="button" onclick="convert()">submit</button>
+        <h2 class="endResult"></h2>
+    </form>
+
     
 
 </body>
